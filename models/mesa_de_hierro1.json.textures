@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "top": "top_texture",
+        "paws": "paws_texture1",
+        "supports": "supports_texture"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "plank_cutter:custom/stonecutter",
+  "textures": {
+    "all": "plank_cutter:blocks/stonecutterobj",
+    "particle": "plank_cutter:blocks/stonecutterobj",
+    "side": "plank_cutter:blocks/plank_cutter_sides",
+    "top": "plank_cutter:blocks/plank_cutter_top",
+    "bottom": "plank_cutter:blocks/plank_cutter_bottom",
+    "saw": "plank_cutter:blocks/sawa"
+  }
+}

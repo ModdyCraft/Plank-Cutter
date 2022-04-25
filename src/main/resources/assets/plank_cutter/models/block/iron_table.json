@@ -1,0 +1,10 @@
+{
+  "parent": "plank_cutter:custom/mesa_de_hierro1",
+  "textures": {
+    "all": "plank_cutter:blocks/mesa_de_hierroi",
+    "particle": "plank_cutter:blocks/mesa_de_hierroi",
+    "top": "plank_cutter:blocks/top_texture",
+    "paws": "plank_cutter:blocks/paws_texture1",
+    "supports": "plank_cutter:blocks/supports_texture"
+  }
+}

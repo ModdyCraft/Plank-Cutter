@@ -1,0 +1,285 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlankCutter",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_cutter"
+    },
+    {
+      "name": "PlankCutterGuiAlCerrarEstaGUI",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_cutter_gui_al_cerrar_esta_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NextObject",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_object",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ComprobarSlot",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comprobar_slot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlSacarObejot",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "al_sacar_obejot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlankCutterGui",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_cutter_gui"
+    },
+    {
+      "name": "PlankCutterRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_cutter_recipe"
+    },
+    {
+      "name": "AlScarObjetoDeSlot0",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "al_scar_objeto_de_slot_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlCambiarObjetoDeSlot0",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "al_cambiar_objeto_de_slot_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronTable",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_table"
+    },
+    {
+      "name": "IronPaws",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_paws"
+    },
+    {
+      "name": "IronTableAlSerColocadoElBloque",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_table_al_ser_colocado_el_bloque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronPawsAlCambiarUnBloqueAdyacente",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_paws_al_cambiar_un_bloque_adyacente",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronTableRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_table_recipe"
+    },
+    {
+      "name": "IronTableFundicion",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_table_fundicion"
+    },
+    {
+      "name": "IronTablePawsFundicion",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_table_paws_fundicion"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tipoDeTablon",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "numeroDB",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "serrucahndo",
+      "files": [
+        "y2mate.mx-serrucho_-_efecto_de_sonido-128kbps"
+      ],
+      "category": "record",
+      "subtitle": "serrucahndo"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.plank_cutter.iron_paws": "Iron Paws",
+      "block.plank_cutter.plank_cutter": "Plank Cutter",
+      "subtitles.serrucahndo": "serrucahndo",
+      "block.plank_cutter.iron_table": "Iron Table"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "plank_cutter",
+    "modName": "Plank Cutter",
+    "version": "1.0.3",
+    "description": "A fantastic way to cut wood planks, if before, creating a simple wooden ladder, you consumed many planks, now not, stop suffering exhaustively cutting wood, just download this mod and you will get what you are looking for.",
+    "author": "MODDYCRAFT, MCreator",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/plank-cutter",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "intitulado",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.moddycraft.plankcutter",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

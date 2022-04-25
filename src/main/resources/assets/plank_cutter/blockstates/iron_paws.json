@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "plank_cutter:block/iron_paws"
+    },
+    "facing=east": {
+      "model": "plank_cutter:block/iron_paws",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "plank_cutter:block/iron_paws",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plank_cutter:block/iron_paws",
+      "y": 270
+    }
+  }
+}

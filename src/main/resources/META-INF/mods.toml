@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="plank_cutter"
+version="1.0.3"
+displayName="Plank Cutter"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/plank-cutter"
+logoFile="logo.png"
+authors="MODDYCRAFT, MCreator"
+description='''
+A fantastic way to cut wood planks, if before, creating a simple wooden ladder, you consumed many planks, now not, stop suffering exhaustively cutting wood, just download this mod and you will get what you are looking for.
+'''
+
+[[dependencies.plank_cutter]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

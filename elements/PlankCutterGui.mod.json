@@ -1,0 +1,116 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "plankc_cutter_gui2.png",
+          "use1Xscale": false,
+          "name": "plankc_cutter_gui2.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AlCambiarObjetoDeSlot0"
+          },
+          "onTakenFromSlot": {
+            "name": "AlScarObjetoDeSlot0"
+          },
+          "name": "Slot #0",
+          "x": 151,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "AlSacarObejot"
+          },
+          "name": "Slot #1",
+          "x": 243,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "PLANK CUTTER",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "PLANK CUTTER",
+          "x": 128,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NEXT BLOCK",
+          "onClick": {
+            "name": "NextObject"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "NEXT BLOCK",
+          "x": 208,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inventory",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Inventory",
+          "x": 132,
+          "y": 110
+        }
+      }
+    ],
+    "onTick": {
+      "name": "ComprobarSlot"
+    },
+    "onClosed": {
+      "name": "PlankCutterGuiAlCerrarEstaGUI"
+    },
+    "gridSettings": {
+      "sx": 14,
+      "sy": 14,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "serrucahndo": {
+    "category": "record",
+    "subtitle": "subtitles.serrucahndo",
+    "sounds": [
+      {
+        "name": "plank_cutter:y2mate.mx-serrucho_-_efecto_de_sonido-128kbps",
+        "stream": true
+      }
+    ]
+  }
+}

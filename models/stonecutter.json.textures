@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "plank_cutter_sides",
+        "top": "plank_cutter_top",
+        "bottom": "plank_cutter_bottom",
+        "saw": "sawa"
+      },
+      "name": "default"
+    }
+  }
+}
