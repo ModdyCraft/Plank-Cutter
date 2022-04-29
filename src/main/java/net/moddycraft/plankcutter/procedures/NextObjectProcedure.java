@@ -43,6 +43,27 @@ public class NextObjectProcedure {
 				PlankCutterModVariables.MapVariables.get(world).numeroDB = 5;
 				PlankCutterModVariables.MapVariables.get(world).syncData(world);
 			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 5) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 6;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 7;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 8;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 9;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 10;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 11;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 12;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
 				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
 				PlankCutterModVariables.MapVariables.get(world).syncData(world);
 			}
@@ -74,6 +95,27 @@ public class NextObjectProcedure {
 				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
 				PlankCutterModVariables.MapVariables.get(world).syncData(world);
 			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 5) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
+				PlankCutterModVariables.MapVariables.get(world).syncData(world);
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
 				PlankCutterModVariables.MapVariables.get(world).numeroDB = 0;
 				PlankCutterModVariables.MapVariables.get(world).syncData(world);
 			}

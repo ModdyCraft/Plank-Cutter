@@ -134,6 +134,62 @@ public class ComprobarSlotProcedure {
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.OAK_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.OAK_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.OAK_FENCE_GATE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
 			}
 		} else if (PlankCutterModVariables.MapVariables.get(world).tipoDeTablon == 2
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
@@ -184,6 +240,62 @@ public class ComprobarSlotProcedure {
 						&& _current.get()instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Blocks.SPRUCE_SLAB);
 					_setstack.setCount(2);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(2);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.SPRUCE_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.SPRUCE_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.SPRUCE_FENCE_GATE);
+					_setstack.setCount(1);
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
@@ -240,6 +352,62 @@ public class ComprobarSlotProcedure {
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BIRCH_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BIRCH_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BIRCH_FENCE_GATE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
 			}
 		} else if (PlankCutterModVariables.MapVariables.get(world).tipoDeTablon == 4
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
@@ -290,6 +458,62 @@ public class ComprobarSlotProcedure {
 						&& _current.get()instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Blocks.JUNGLE_SLAB);
 					_setstack.setCount(2);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.JUNGLE_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.JUNGLE_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.JUNGLE_FENCE_GATE);
+					_setstack.setCount(1);
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
@@ -346,6 +570,62 @@ public class ComprobarSlotProcedure {
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.ACACIA_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.ACACIA_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.ACACIA_FENCE_GATE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
 			}
 		} else if (PlankCutterModVariables.MapVariables.get(world).tipoDeTablon == 6
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
@@ -396,6 +676,62 @@ public class ComprobarSlotProcedure {
 						&& _current.get()instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Blocks.DARK_OAK_SLAB);
 					_setstack.setCount(2);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.DARK_OAK_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.DARK_OAK_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.DARK_OAK_FENCE_GATE);
+					_setstack.setCount(1);
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
@@ -452,6 +788,62 @@ public class ComprobarSlotProcedure {
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CRIMSON_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CRIMSON_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CRIMSON_FENCE_GATE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
 			}
 		} else if (PlankCutterModVariables.MapVariables.get(world).tipoDeTablon == 8
 				&& (entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
@@ -502,6 +894,62 @@ public class ComprobarSlotProcedure {
 						&& _current.get()instanceof Map _slots) {
 					ItemStack _setstack = new ItemStack(Blocks.WARPED_SLAB);
 					_setstack.setCount(2);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 6) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.CHEST);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 7) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.BARREL);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 8) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 9) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.WARPED_SIGN);
+					_setstack.setCount(3);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 10) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.LADDER);
+					_setstack.setCount(9);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 11) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.WARPED_FENCE);
+					_setstack.setCount(1);
+					((Slot) _slots.get(1)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if (PlankCutterModVariables.MapVariables.get(world).numeroDB == 12) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+						&& _current.get()instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(Blocks.WARPED_FENCE_GATE);
+					_setstack.setCount(1);
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
