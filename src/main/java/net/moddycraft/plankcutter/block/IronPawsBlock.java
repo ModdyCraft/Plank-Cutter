@@ -42,7 +42,6 @@ public class IronPawsBlock extends FallingBlock {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(2.5f, 10f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-		setRegistryName("iron_paws");
 	}
 
 	@Override
@@ -75,13 +74,13 @@ public class IronPawsBlock extends FallingBlock {
 	}
 
 	@Override
-	public ItemStack getPickBlock(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(PlankCutterModBlocks.IRON_TABLE);
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(PlankCutterModBlocks.IRON_TABLE.get());
 	}
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -91,7 +90,7 @@ public class IronPawsBlock extends FallingBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(PlankCutterModBlocks.IRON_TABLE));
+		return Collections.singletonList(new ItemStack(PlankCutterModBlocks.IRON_TABLE.get()));
 	}
 
 	@Override
@@ -108,7 +107,7 @@ public class IronPawsBlock extends FallingBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(PlankCutterModBlocks.IRON_PAWS, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(PlankCutterModBlocks.IRON_PAWS.get(), renderType -> renderType == RenderType.cutout());
 	}
 
 }

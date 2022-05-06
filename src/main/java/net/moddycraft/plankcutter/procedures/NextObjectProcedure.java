@@ -18,7 +18,7 @@ public class NextObjectProcedure {
 		if (new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 					if (stack != null)
 						return stack.getCount();
@@ -70,7 +70,7 @@ public class NextObjectProcedure {
 		} else if (new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get()instanceof Map _slots) {
+						&& _current.get() instanceof Map _slots) {
 					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
 					if (stack != null)
 						return stack.getCount();

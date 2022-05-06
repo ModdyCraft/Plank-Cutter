@@ -12,7 +12,7 @@ public class AlCambiarObjetoDeSlot0Procedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get()instanceof Map _slots) {
+		if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 			((Slot) _slots.get(1)).set(ItemStack.EMPTY);
 			_player.containerMenu.broadcastChanges();
 		}

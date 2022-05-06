@@ -4,7 +4,7 @@ package net.moddycraft.plankcutter.block;
 import net.moddycraft.plankcutter.world.inventory.PlankCutterGuiMenu;
 import net.moddycraft.plankcutter.init.PlankCutterModBlocks;
 
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -54,7 +54,6 @@ public class PlankCutterBlock extends Block {
 		super(BlockBehaviour.Properties.of(Material.DECORATION).sound(SoundType.METAL).strength(2f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-		setRegistryName("plank_cutter");
 	}
 
 	@Override
@@ -131,7 +130,7 @@ public class PlankCutterBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(PlankCutterModBlocks.PLANK_CUTTER, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(PlankCutterModBlocks.PLANK_CUTTER.get(), renderType -> renderType == RenderType.cutout());
 	}
 
 }

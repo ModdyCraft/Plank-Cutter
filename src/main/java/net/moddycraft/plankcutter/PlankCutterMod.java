@@ -16,10 +16,15 @@ package net.moddycraft.plankcutter;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.minecraftforge.fmllegacy.network.simple.SimpleChannel;
-import net.minecraftforge.fmllegacy.network.NetworkRegistry;
-import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.moddycraft.plankcutter.init.PlankCutterModItems;
+import net.moddycraft.plankcutter.init.PlankCutterModBlocks;
+
+import net.minecraftforge.network.simple.SimpleChannel;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
@@ -38,6 +43,10 @@ public class PlankCutterMod {
 	private static int messageID = 0;
 
 	public PlankCutterMod() {
+
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		PlankCutterModBlocks.REGISTRY.register(bus);
+		PlankCutterModItems.REGISTRY.register(bus);
 
 	}
 
