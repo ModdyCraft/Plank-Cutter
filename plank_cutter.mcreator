@@ -9,78 +9,6 @@
       "registry_name": "plank_cutter"
     },
     {
-      "name": "PlankCutterGuiAlCerrarEstaGUI",
-      "type": "procedure",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plank_cutter_gui_al_cerrar_esta_gui",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "NextObject",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "next_object",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ComprobarSlot",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "comprobar_slot",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AlSacarObejot",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "al_sacar_obejot",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "PlankCutterGui",
       "type": "gui",
       "sortid": 10,
@@ -95,38 +23,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "plank_cutter_recipe"
-    },
-    {
-      "name": "AlScarObjetoDeSlot0",
-      "type": "procedure",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "al_scar_objeto_de_slot_0",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "AlCambiarObjetoDeSlot0",
-      "type": "procedure",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "al_cambiar_objeto_de_slot_0",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "IronTable",
@@ -223,20 +119,228 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_table_paws_fundicion"
+    },
+    {
+      "name": "PlankCutterGuiWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_cutter_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank0",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank1",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank2",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank3",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank4",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank5",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank6",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResultsForPlank7",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "results_for_plank_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NextBlockButtonPlankCutterGui",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_block_button_plank_cutter_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetCurrentResult",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_current_result",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhenItemTakeFromSlot1PlankCutterGui",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_item_take_from_slot_1_plank_cutter_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhenTransferedFromSlot1WhitShiftClickPlanCutterGui",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_transfered_from_slot_1_whit_shift_click_plan_cutter_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "tipoDeTablon",
+      "name": "CurrentResult",
       "type": "number",
-      "scope": "map",
-      "value": "0.0"
+      "scope": "player_persistent",
+      "value": "0"
     },
     {
-      "name": "numeroDB",
+      "name": "Results",
       "type": "number",
-      "scope": "map",
-      "value": "0.0"
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -281,5 +385,5 @@
     "modElementsPackage": "net.moddycraft.plankcutter",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200118711
+  "mcreatorVersion": 202200347418
 }

@@ -1,8 +1,7 @@
 
 package net.moddycraft.plankcutter.world.inventory;
 
-import net.moddycraft.plankcutter.procedures.PlankCutterGuiAlCerrarEstaGUIProcedure;
-import net.moddycraft.plankcutter.procedures.ComprobarSlotProcedure;
+import net.moddycraft.plankcutter.procedures.PlankCutterGuiWhileThisGUIIsOpenTickProcedure;
 import net.moddycraft.plankcutter.network.PlankCutterGuiSlotMessage;
 import net.moddycraft.plankcutter.init.PlankCutterModMenus;
 import net.moddycraft.plankcutter.PlankCutterMod;
@@ -89,18 +88,18 @@ public class PlankCutterGuiMenu extends AbstractContainerMenu implements Supplie
 				super.setChanged();
 				slotChanged(0, 0, 0);
 			}
-
-			@Override
-			public void onTake(Player entity, ItemStack stack) {
-				super.onTake(entity, stack);
-				slotChanged(0, 1, 0);
-			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 118, 33) {
 			@Override
 			public void onTake(Player entity, ItemStack stack) {
 				super.onTake(entity, stack);
 				slotChanged(1, 1, 0);
+			}
+
+			@Override
+			public void onQuickCraft(ItemStack a, ItemStack b) {
+				super.onQuickCraft(a, b);
+				slotChanged(1, 2, b.getCount() - a.getCount());
 			}
 
 			@Override
@@ -236,8 +235,6 @@ public class PlankCutterGuiMenu extends AbstractContainerMenu implements Supplie
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
-
-		PlankCutterGuiAlCerrarEstaGUIProcedure.execute(entity);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
@@ -271,7 +268,7 @@ public class PlankCutterGuiMenu extends AbstractContainerMenu implements Supplie
 			double y = entity.getY();
 			double z = entity.getZ();
 
-			ComprobarSlotProcedure.execute(world, entity);
+			PlankCutterGuiWhileThisGUIIsOpenTickProcedure.execute(entity);
 		}
 	}
 }

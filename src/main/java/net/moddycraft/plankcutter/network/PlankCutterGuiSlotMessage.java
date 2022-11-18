@@ -2,9 +2,9 @@
 package net.moddycraft.plankcutter.network;
 
 import net.moddycraft.plankcutter.world.inventory.PlankCutterGuiMenu;
-import net.moddycraft.plankcutter.procedures.AlScarObjetoDeSlot0Procedure;
-import net.moddycraft.plankcutter.procedures.AlSacarObejotProcedure;
-import net.moddycraft.plankcutter.procedures.AlCambiarObjetoDeSlot0Procedure;
+import net.moddycraft.plankcutter.procedures.WhenTransferedFromSlot1WhitShiftClickPlanCutterGuiProcedure;
+import net.moddycraft.plankcutter.procedures.WhenItemTakeFromSlot1PlankCutterGuiProcedure;
+import net.moddycraft.plankcutter.procedures.ResetCurrentResultProcedure;
 import net.moddycraft.plankcutter.PlankCutterMod;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -74,15 +74,16 @@ public class PlankCutterGuiSlotMessage {
 			return;
 		if (slotID == 0 && changeType == 0) {
 
-			AlCambiarObjetoDeSlot0Procedure.execute(entity);
-		}
-		if (slotID == 0 && changeType == 1) {
-
-			AlScarObjetoDeSlot0Procedure.execute(entity);
+			ResetCurrentResultProcedure.execute(entity);
 		}
 		if (slotID == 1 && changeType == 1) {
 
-			AlSacarObejotProcedure.execute(entity);
+			WhenItemTakeFromSlot1PlankCutterGuiProcedure.execute(entity);
+		}
+		if (slotID == 1 && changeType == 2) {
+			int amount = meta;
+
+			WhenTransferedFromSlot1WhitShiftClickPlanCutterGuiProcedure.execute(entity);
 		}
 	}
 

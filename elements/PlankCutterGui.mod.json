@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 34,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -30,10 +30,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "AlCambiarObjetoDeSlot0"
-          },
-          "onTakenFromSlot": {
-            "name": "AlScarObjetoDeSlot0"
+            "name": "ResetCurrentResult"
           },
           "name": "Slot #0",
           "x": 151,
@@ -51,7 +48,10 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
-            "name": "AlSacarObejot"
+            "name": "WhenItemTakeFromSlot1PlankCutterGui"
+          },
+          "onStackTransfer": {
+            "name": "WhenTransferedFromSlot1WhitShiftClickPlanCutterGui"
           },
           "name": "Slot #1",
           "x": 243,
@@ -67,8 +67,8 @@
             "falpha": 0.0
           },
           "name": "PLANK CUTTER",
-          "x": 128,
-          "y": 40
+          "x": 131,
+          "y": 43
         }
       },
       {
@@ -76,7 +76,7 @@
         "data": {
           "text": "NEXT BLOCK",
           "onClick": {
-            "name": "NextObject"
+            "name": "NextBlockButtonPlankCutterGui"
           },
           "width": 82,
           "height": 20,
@@ -100,10 +100,7 @@
       }
     ],
     "onTick": {
-      "name": "ComprobarSlot"
-    },
-    "onClosed": {
-      "name": "PlankCutterGuiAlCerrarEstaGUI"
+      "name": "PlankCutterGuiWhileThisGUIIsOpenTick"
     },
     "gridSettings": {
       "sx": 14,

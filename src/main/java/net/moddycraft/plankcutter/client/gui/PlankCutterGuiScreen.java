@@ -37,7 +37,7 @@ public class PlankCutterGuiScreen extends AbstractContainerScreen<PlankCutterGui
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("plank_cutter:textures/plank_cutter_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("plank_cutter:textures/screens/plank_cutter_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -54,7 +54,7 @@ public class PlankCutterGuiScreen extends AbstractContainerScreen<PlankCutterGui
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("plank_cutter:textures/plankc_cutter_gui2.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("plank_cutter:textures/screens/plankc_cutter_gui2.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
@@ -76,7 +76,7 @@ public class PlankCutterGuiScreen extends AbstractContainerScreen<PlankCutterGui
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "PLANK CUTTER", 2, 3, -1);
+		this.font.draw(poseStack, "PLANK CUTTER", 5, 6, -1);
 		this.font.draw(poseStack, "Inventory", 6, 73, -12829636);
 	}
 

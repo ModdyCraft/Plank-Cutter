@@ -2,7 +2,7 @@
 package net.moddycraft.plankcutter.network;
 
 import net.moddycraft.plankcutter.world.inventory.PlankCutterGuiMenu;
-import net.moddycraft.plankcutter.procedures.NextObjectProcedure;
+import net.moddycraft.plankcutter.procedures.NextBlockButtonPlankCutterGuiProcedure;
 import net.moddycraft.plankcutter.PlankCutterMod;
 
 import net.minecraftforge.network.NetworkEvent;
@@ -64,7 +64,7 @@ public class PlankCutterGuiButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			NextObjectProcedure.execute(world, entity);
+			NextBlockButtonPlankCutterGuiProcedure.execute(entity);
 		}
 	}
 

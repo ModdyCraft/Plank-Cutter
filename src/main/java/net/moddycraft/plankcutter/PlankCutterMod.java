@@ -18,6 +18,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.moddycraft.plankcutter.init.PlankCutterModItems;
 import net.moddycraft.plankcutter.init.PlankCutterModBlocks;
+import net.moddycraft.plankcutter.init.PlankCutterModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -47,6 +48,8 @@ public class PlankCutterMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		PlankCutterModBlocks.REGISTRY.register(bus);
 		PlankCutterModItems.REGISTRY.register(bus);
+
+		PlankCutterModBlockEntities.REGISTRY.register(bus);
 
 	}
 
