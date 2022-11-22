@@ -16,6 +16,7 @@ public class PlankCutterGuiWhileThisGUIIsOpenTickProcedure {
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
 				: ItemStack.EMPTY).getItem() == Blocks.OAK_PLANKS.asItem()) {
+			ResultsForOakPlankProcedure.execute(entity);
 		} else if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 				&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Blocks.SPRUCE_PLANKS.asItem()) {
 		} else {

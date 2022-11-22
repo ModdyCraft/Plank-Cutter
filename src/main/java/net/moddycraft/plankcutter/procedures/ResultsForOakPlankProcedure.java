@@ -17,7 +17,7 @@ public class ResultsForOakPlankProcedure {
 		if (entity == null)
 			return;
 		{
-			double _setval = 12;
+			double _setval = 13;
 			entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.Results = _setval;
 				capability.syncPlayerVariables(entity);
@@ -29,7 +29,7 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_STAIRS);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -38,7 +38,7 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_DOOR);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -46,8 +46,8 @@ public class ResultsForOakPlankProcedure {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_TRAPDOOR);
-				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				_setstack.setCount(8);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -55,8 +55,8 @@ public class ResultsForOakPlankProcedure {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_BUTTON);
-				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				_setstack.setCount(10);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -64,8 +64,8 @@ public class ResultsForOakPlankProcedure {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_PRESSURE_PLATE);
-				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				_setstack.setCount(8);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -74,7 +74,7 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_FENCE);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -83,7 +83,7 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_FENCE_GATE);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -91,8 +91,8 @@ public class ResultsForOakPlankProcedure {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.OAK_SLAB);
-				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				_setstack.setCount(2);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -100,8 +100,8 @@ public class ResultsForOakPlankProcedure {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Items.OAK_SIGN);
-				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				_setstack.setCount(3);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -109,8 +109,8 @@ public class ResultsForOakPlankProcedure {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.LADDER);
-				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				_setstack.setCount(3);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -119,7 +119,7 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.CRAFTING_TABLE);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -128,7 +128,7 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.CHEST);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -137,7 +137,16 @@ public class ResultsForOakPlankProcedure {
 					&& _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(Blocks.COMPOSTER);
 				_setstack.setCount(1);
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if ((entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new PlankCutterModVariables.PlayerVariables())).CurrentResult == 13) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(Blocks.BARREL);
+				_setstack.setCount(1);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 		}
