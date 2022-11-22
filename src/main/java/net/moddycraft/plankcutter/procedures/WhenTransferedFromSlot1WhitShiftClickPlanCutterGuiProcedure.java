@@ -41,14 +41,23 @@ public class WhenTransferedFromSlot1WhitShiftClickPlanCutterGuiProcedure {
 			}
 		}.getAmount(1);
 		Cuantity = Cuantity / 2;
-		if (entity instanceof Player _player) {
-			ItemStack _setstack = itemToTake;
-			_setstack.setCount((int) Cuantity);
-			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-		}
-		if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-			((Slot) _slots.get(0)).set(ItemStack.EMPTY);
-			_player.containerMenu.broadcastChanges();
+		if (Cuantity < 1) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(0)).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else {
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = itemToTake;
+				_setstack.setCount((int) Cuantity);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
+					&& _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(0)).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
 		}
 	}
 }
