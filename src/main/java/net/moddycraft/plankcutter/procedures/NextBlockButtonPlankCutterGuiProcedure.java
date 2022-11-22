@@ -8,7 +8,6 @@ public class NextBlockButtonPlankCutterGuiProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		ResetCurrentResultProcedure.execute(entity);
 		{
 			double _setval = (entity.getCapability(PlankCutterModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlankCutterModVariables.PlayerVariables())).CurrentResult + 1;
@@ -17,5 +16,6 @@ public class NextBlockButtonPlankCutterGuiProcedure {
 				capability.syncPlayerVariables(entity);
 			});
 		}
+		ResetCurrentResultProcedure.execute(entity);
 	}
 }
